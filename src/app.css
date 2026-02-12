@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import './smui-textfield.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* SMUI textfield tuning for settings pages */
+.settings-textfields .mdc-text-field {
+  width: 100%;
+  height: 48px;
+}
+
+.settings-textfields .mdc-text-field__input {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.settings-textfields .mdc-text-field--outlined .mdc-floating-label {
+  background: #ffffff !important;
+  padding: 0 4px;
+}
+
+.settings-textfields .mdc-text-field--focused .mdc-floating-label {
+  color: #1db954 !important;
+}
+
+.settings-textfields .mdc-text-field--focused .mdc-notched-outline__leading,
+.settings-textfields .mdc-text-field--focused .mdc-notched-outline__notch,
+.settings-textfields .mdc-text-field--focused .mdc-notched-outline__trailing {
+  border-color: #1db954 !important;
+}
+
+.settings-textfields .mdc-select {
+  width: 100%;
+}
+
+.settings-textfields .mdc-select__anchor {
+  height: 48px;
+}
+
+.settings-textfields .mdc-select__selected-text {
+  line-height: 48px;
+}
+
+.settings-textfields .mdc-select--outlined .mdc-floating-label {
+  background: #ffffff !important;
+  padding: 0 4px;
+}
+
+.settings-textfields .mdc-select--focused .mdc-floating-label {
+  color: #1db954 !important;
+}
+
+.settings-textfields .mdc-select--focused .mdc-notched-outline__leading,
+.settings-textfields .mdc-select--focused .mdc-notched-outline__notch,
+.settings-textfields .mdc-select--focused .mdc-notched-outline__trailing {
+  border-color: #1db954 !important;
+}
+
+/* SMUI switch tuning for settings tables */
+.settings-textfields .mdc-switch {
+  --mdc-switch-selected-track-color: #cfeeda;
+  --mdc-switch-selected-hover-track-color: #cfeeda;
+  --mdc-switch-selected-focus-track-color: #cfeeda;
+  --mdc-switch-selected-pressed-track-color: #cfeeda;
+  --mdc-switch-selected-handle-color: #1db954;
+  --mdc-switch-selected-hover-handle-color: #1db954;
+  --mdc-switch-selected-focus-handle-color: #1db954;
+  --mdc-switch-selected-pressed-handle-color: #1db954;
+  --mdc-switch-selected-hover-state-layer-color: transparent;
+  --mdc-switch-selected-focus-state-layer-color: transparent;
+  --mdc-switch-selected-pressed-state-layer-color: transparent;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9e9e9e;
+}
