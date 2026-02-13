@@ -1,6 +1,6 @@
 # penpot-mcp-experiments 
 > [!note]
-> I used Anthropics Opus 4.5 (version 06/01/2026) within the VSCode integrated copilot chat.
+> I used Anthropics Opus 4.5 (state from 06/01/2026) within the VSCode integrated copilot chat.
   
 This exemplary Svelte app was used to test the capabilities of Penpot MCPs regarding the **re-creation** of existing apps.
 
