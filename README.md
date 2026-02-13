@@ -69,3 +69,9 @@ npm run dev -- --open
 | **Reference** | **Result** |
 | :---: | :---: |
 | <img src="https://github.com/soon2moon/penpot-mcp-experiments/blob/main/images/reference_images/ref_manage_accounts.png?raw=true" width="250" alt="Reference Manage Accounts" /> | <img src="https://github.com/soon2moon/penpot-mcp-experiments/blob/main/images/results/manage_accounts_result.png?raw=true" width="250" alt="Result Manage Accounts" /> |
+
+### Qwen3:32b - User Settings Card
+
+| **Reference** | **Result** |
+| :---: | :---: |
+| <img src="https://github.com/soon2moon/penpot-mcp-experiments/blob/main/images/reference_images/ref_user_settings.png?raw=true" width="250" alt="Reference Manage Accounts" /> | <img src="https://github.com/soon2moon/penpot-mcp-experiments/blob/main/images/qwen3/result_UserSettingsCard_qwen3-32b.png?raw=true" width="250" alt="User Settings Card" /> |
